@@ -1,0 +1,88 @@
+/* Home-background img */
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+/* Navbar */
+.offcanvas{
+    background-color: #fab8ce;
+}
+.offcanvas-body{
+    text-align: center;
+}
+.offcanvas-title{
+    text-align: center;
+}
+/* home-page */
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+}
+.home-header{
+    color: #e91e63;
+}
+.home-link{
+    text-decoration: none;
+    color: #f0d0db;
+    background-color: crimson;
+    padding: 10px 50px;
+    border-radius: 10px;
+    transition: 0.8s;
+    margin-top: 30px;
+}
+.home-link:hover{
+    /* background-color: yellow; */
+    opacity: 0.7;
+    color: rgb(249, 249, 249);
+}
+/* About page */
+.about-header{
+    text-align: center;
+    margin: 37px;
+    font-size: 50px;
+}
+.about-para{
+    font-size: 25px;
+}
+/* loading */
+.loading{
+    font-size: 30px;
+    font-style: bold;
+}
+
+/* products */
+.products-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+.products-info{
+    border: 2px solid;
+}
+/* Chocodetails-subcomponents */
+.tabs-ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tab-active{
+    color: red;
+}
+/* product-quantity */
+.product-quantity{
+    background-color: #00BCD4;
+    display: inline;
+    border-radius: 10px;
+    padding: 7px;
+}
